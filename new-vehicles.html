@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Find a New Vehicle — DriveNorth</title>
+  <meta name="description" content="Browse new vehicles from hundreds of Canadian dealers. Get competing offers fast — no pressure, no gimmicks." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="css/custom.css" />
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="site-nav" id="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">Drive<span>North</span></a>
+    <ul class="nav-links">
+      <li><a href="credit-friendly.html">Credit-Friendly</a></li>
+      <li><a href="new-vehicles.html">New Vehicles</a></li>
+      <li><a href="learn.html">Learn</a></li>
+      <li><a href="dealers.html">For Dealers</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="credit-friendly.html" class="nav-cta">Get Started</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+<div class="mobile-nav" id="mobileNav">
+  <a href="credit-friendly.html">Credit-Friendly</a>
+  <a href="new-vehicles.html">New Vehicles</a>
+  <a href="learn.html">Learn</a>
+  <a href="dealers.html">For Dealers</a>
+  <a href="contact.html">Contact</a>
+  <a href="credit-friendly.html" class="mobile-cta">Get Started Free</a>
+</div>
+
+<!-- HERO -->
+<section class="hero hero-subpage">
+  <div class="hero-dots"></div>
+  <div class="hero-content">
+    <div class="hero-badge">
+      <svg width="12" height="12" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"/></svg>
+      200+ Canadian Dealer Partners
+    </div>
+    <h1>Find Your Perfect<br><span class="text-gradient">New Vehicle</span> in Canada</h1>
+    <p>Tell us what you want and we'll match you with competing offers from pre-screened Canadian dealers — saving you time, money, and the classic dealership runaround.</p>
+    <div class="hero-actions">
+      <a href="#find-vehicle" class="btn btn-primary btn-lg">
+        <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+        Find My Vehicle
+      </a>
+      <a href="#categories" class="btn btn-outline btn-lg">Browse Categories</a>
+    </div>
+    <div class="trust-badges">
+      <div class="trust-badge">
+        <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+        Pre-Screened Dealers
+      </div>
+      <div class="trust-badge">
+        <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+        Competing Offers
+      </div>
+      <div class="trust-badge">
+        <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+        Nationwide Coverage
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- VEHICLE CATEGORIES -->
+<section class="section" style="background: var(--offwhite);" id="categories">
+  <div class="container">
+    <div class="text-center" style="margin-bottom: 48px;">
+      <div class="section-label fade-in" style="justify-content: center;">Browse by Category</div>
+      <h2 class="section-title fade-in">What Are You Looking For?</h2>
+      <p class="section-subtitle fade-in" style="margin: 0 auto;">Select a category below to see matched dealers in your area.</p>
+    </div>
+
+    <div class="card-grid card-grid-4" style="margin-bottom: 40px;">
+      <a href="#find-vehicle" class="card fade-in" style="text-align: center; cursor: pointer; text-decoration: none;">
+        <div style="font-size: 2.5rem; margin-bottom: 12px;">🚗</div>
+        <h4 style="font-size: 1rem; color: var(--navy); margin-bottom: 4px;">Cars & Sedans</h4>
+        <p style="font-size: 0.8rem; color: var(--gray-400);">Economy to Luxury</p>
+      </a>
+      <a href="#find-vehicle" class="card fade-in fade-in-delay-1" style="text-align: center; cursor: pointer; text-decoration: none;">
+        <div style="font-size: 2.5rem; margin-bottom: 12px;">🚙</div>
+        <h4 style="font-size: 1rem; color: var(--navy); margin-bottom: 4px;">SUVs & Crossovers</h4>
+        <p style="font-size: 0.8rem; color: var(--gray-400);">Compact to Full-Size</p>
+      </a>
+      <a href="#find-vehicle" class="card fade-in fade-in-delay-2" style="text-align: center; cursor: pointer; text-decoration: none;">
+        <div style="font-size: 2.5rem; margin-bottom: 12px;">🛻</div>
+        <h4 style="font-size: 1rem; color: var(--navy); margin-bottom: 4px;">Trucks & Vans</h4>
+        <p style="font-size: 0.8rem; color: var(--gray-400);">Personal & Commercial</p>
+      </a>
+      <a href="#find-vehicle" class="card fade-in fade-in-delay-3" style="text-align: center; cursor: pointer; text-decoration: none;">
+        <div style="font-size: 2.5rem; margin-bottom: 12px;">⚡</div>
+        <h4 style="font-size: 1rem; color: var(--navy); margin-bottom: 4px;">Electric Vehicles</h4>
+        <p style="font-size: 0.8rem; color: var(--gray-400);">BEV & Hybrid Options</p>
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<!-- LEAD FORM -->
+<section class="section" id="find-vehicle">
+  <div class="container-sm">
+    <div class="text-center" style="margin-bottom: 40px;">
+      <h2 class="section-title fade-in">Tell Us What You're Looking For</h2>
+      <p class="section-subtitle fade-in" style="margin: 0 auto;">Get matched with up to 3 competing dealers near you. Takes 90 seconds.</p>
+    </div>
+
+    <div class="form-wrapper fade-in">
+      <!-- Step indicators -->
+      <div class="step-indicators">
+        <div class="step-dot active">1</div>
+        <div style="flex: 1; height: 2px; background: var(--gray-100); align-self: center; margin: 0 8px;"></div>
+        <div class="step-dot">2</div>
+        <div style="flex: 1; height: 2px; background: var(--gray-100); align-self: center; margin: 0 8px;"></div>
+        <div class="step-dot">3</div>
+      </div>
+      <div class="progress-bar-wrap" style="margin-top: 16px;">
+        <div class="progress-bar" style="width: 33%;"></div>
+      </div>
+      <div class="step-count" style="font-size: 0.8rem; color: var(--gray-400); margin-bottom: 32px; font-weight: 500;">Step 1 of 3</div>
+
+      <form class="multistep-form" novalidate>
+
+        <!-- STEP 1: Vehicle Preferences -->
+        <div class="form-step active">
+          <h3 style="font-size: 1.35rem; color: var(--navy); margin-bottom: 6px;">What vehicle are you interested in?</h3>
+          <p style="font-size: 0.875rem; color: var(--gray-600); margin-bottom: 28px;">Select your preferred category and tell us more about what you need.</p>
+
+          <div class="option-cards card-grid-2" data-required>
+            <div class="option-card" data-value="car">
+              <div class="option-icon">🚗</div>
+              <div class="option-label">Car / Sedan</div>
+            </div>
+            <div class="option-card" data-value="suv">
+              <div class="option-icon">🚙</div>
+              <div class="option-label">SUV / Crossover</div>
+            </div>
+            <div class="option-card" data-value="truck">
+              <div class="option-icon">🛻</div>
+              <div class="option-label">Truck / Van</div>
+            </div>
+            <div class="option-card" data-value="ev">
+              <div class="option-icon">⚡</div>
+              <div class="option-label">Electric Vehicle</div>
+            </div>
+          </div>
+          <div class="form-error">Please select a vehicle category.</div>
+
+          <div class="form-group">
+            <label class="form-label">Preferred make (optional)</label>
+            <select class="form-control">
+              <option value="">Any make / Not sure yet</option>
+              <option>Toyota</option>
+              <option>Honda</option>
+              <option>Ford</option>
+              <option>Chevrolet</option>
+              <option>RAM</option>
+              <option>Hyundai</option>
+              <option>Kia</option>
+              <option>Mazda</option>
+              <option>Subaru</option>
+              <option>Volkswagen</option>
+              <option>BMW</option>
+              <option>Mercedes-Benz</option>
+              <option>Audi</option>
+              <option>Tesla</option>
+              <option>Nissan</option>
+              <option>GMC</option>
+              <option>Dodge</option>
+              <option>Jeep</option>
+              <option>Other</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Province</label>
+            <select class="form-control" required>
+              <option value="">Select province / territory...</option>
+              <option>Ontario</option>
+              <option>British Columbia</option>
+              <option>Alberta</option>
+              <option>Quebec</option>
+              <option>Manitoba</option>
+              <option>Saskatchewan</option>
+              <option>Nova Scotia</option>
+              <option>New Brunswick</option>
+              <option>Newfoundland and Labrador</option>
+              <option>Prince Edward Island</option>
+              <option>Northwest Territories</option>
+              <option>Yukon</option>
+              <option>Nunavut</option>
+            </select>
+            <div class="form-error">Please select your province.</div>
+          </div>
+
+          <button type="button" class="btn btn-primary" style="width: 100%; margin-top: 8px;" data-next>
+            Continue
+            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg>
+          </button>
+        </div>
+
+        <!-- STEP 2: Budget -->
+        <div class="form-step">
+          <h3 style="font-size: 1.35rem; color: var(--navy); margin-bottom: 6px;">What's your budget?</h3>
+          <p style="font-size: 0.875rem; color: var(--gray-600); margin-bottom: 28px;">Help us narrow down to the best options in your price range.</p>
+
+          <div class="form-group">
+            <label class="form-label">Vehicle price range</label>
+            <select class="form-control" required>
+              <option value="">Select a range...</option>
+              <option>Under $25,000</option>
+              <option>$25,000 – $35,000</option>
+              <option>$35,000 – $50,000</option>
+              <option>$50,000 – $70,000</option>
+              <option>$70,000 – $100,000</option>
+              <option>$100,000+</option>
+            </select>
+            <div class="form-error">Please select a price range.</div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Financing preference</label>
+            <select class="form-control">
+              <option value="">Select...</option>
+              <option>Finance through dealership</option>
+              <option>Lease</option>
+              <option>Cash purchase</option>
+              <option>I need help deciding</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Purchase timeline</label>
+            <select class="form-control" required>
+              <option value="">Select...</option>
+              <option>Ready to buy now</option>
+              <option>Within 1 month</option>
+              <option>1–3 months</option>
+              <option>3–6 months</option>
+              <option>Just researching</option>
+            </select>
+            <div class="form-error">Please select a timeline.</div>
+          </div>
+
+          <div style="display: flex; gap: 12px; margin-top: 8px;">
+            <button type="button" class="btn btn-outline-dark" style="flex: 0 0 auto;" data-back>
+              <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M15 19l-7-7 7-7"/></svg>
+              Back
+            </button>
+            <button type="button" class="btn btn-primary" style="flex: 1;" data-next>
+              Continue
+              <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg>
+            </button>
+          </div>
+        </div>
+
+        <!-- STEP 3: Contact -->
+        <div class="form-step">
+          <h3 style="font-size: 1.35rem; color: var(--navy); margin-bottom: 6px;">Where should we send your matches?</h3>
+          <p style="font-size: 0.875rem; color: var(--gray-600); margin-bottom: 28px;">Receive up to 3 competing dealer offers. Free, no obligation.</p>
+
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+            <div class="form-group">
+              <label class="form-label">First Name</label>
+              <input type="text" class="form-control" placeholder="Alex" required />
+              <div class="form-error">Required.</div>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Last Name</label>
+              <input type="text" class="form-control" placeholder="Chen" required />
+              <div class="form-error">Required.</div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Email Address</label>
+            <input type="email" class="form-control" placeholder="alex@example.com" required />
+            <div class="form-error">A valid email is required.</div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Phone Number</label>
+            <input type="tel" class="form-control" placeholder="(604) 555-0100" required />
+            <div class="form-error">Phone number is required.</div>
+          </div>
+
+          <div class="checkbox-group" style="margin-bottom: 20px;">
+            <input type="checkbox" id="nvConsent" required />
+            <label for="nvConsent">I consent to being contacted by DriveNorth and matched Canadian dealer partners regarding new vehicle options. <span style="color: var(--accent);">*</span></label>
+          </div>
+          <div class="form-error" id="nvConsentError" style="margin-bottom: 12px; margin-top: -12px;">Consent is required.</div>
+
+          <p style="font-size: 0.78rem; color: var(--gray-400); margin-bottom: 20px;">By submitting you agree to our <a href="privacy.html" style="color: var(--accent);">Privacy Policy</a>.</p>
+
+          <div style="display: flex; gap: 12px;">
+            <button type="button" class="btn btn-outline-dark" style="flex: 0 0 auto;" data-back>
+              <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M15 19l-7-7 7-7"/></svg>
+              Back
+            </button>
+            <button type="submit" class="btn btn-primary" style="flex: 1; font-size: 1.05rem; padding: 16px;">
+              🚗 Get My Dealer Matches
+            </button>
+          </div>
+        </div>
+
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- VALUE PROPS -->
+<section class="section" style="background: var(--offwhite);">
+  <div class="container">
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: center;">
+      <div class="fade-in">
+        <div class="section-label">Why DriveNorth for New Vehicles</div>
+        <h2 class="section-title">Skip the Lot. Get Better Deals.</h2>
+        <p style="color: var(--gray-600); margin-bottom: 32px; line-height: 1.7;">Traditional car shopping is stressful, time-consuming, and often leaves buyers feeling taken advantage of. We flip the script — dealers compete for your business.</p>
+        <div class="value-props">
+          <div class="value-prop">
+            <div class="value-prop-icon">
+              <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            </div>
+            <div>
+              <h4>Dealers Compete For You</h4>
+              <p>Receive multiple offers from dealers in your area. Negotiation happens before you even set foot in a showroom.</p>
+            </div>
+          </div>
+          <div class="value-prop">
+            <div class="value-prop-icon">
+              <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            </div>
+            <div>
+              <h4>Save Hours of Research</h4>
+              <p>Our matching engine does the legwork. We pre-screen dealers so you only hear from legitimate, in-stock partners.</p>
+            </div>
+          </div>
+          <div class="value-prop">
+            <div class="value-prop-icon">
+              <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+            </div>
+            <div>
+              <h4>Zero Pressure Environment</h4>
+              <p>You stay in control. You choose which dealers to engage with and when. No obligation, ever.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="fade-in fade-in-delay-1">
+        <div style="background: linear-gradient(135deg, var(--navy) 0%, var(--royal) 100%); border-radius: 24px; padding: 40px; color: white;">
+          <div style="font-size: 3rem; margin-bottom: 16px;">🏆</div>
+          <h3 style="color: white; font-size: 1.4rem; margin-bottom: 12px;">The DriveNorth Advantage</h3>
+          <ul style="list-style: none; display: flex; flex-direction: column; gap: 12px;">
+            <li style="display: flex; align-items: center; gap: 10px; font-size: 0.9rem; color: rgba(255,255,255,0.85);">
+              <svg width="18" height="18" fill="none" stroke="#10B981" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>
+              Up to 3 competing offers
+            </li>
+            <li style="display: flex; align-items: center; gap: 10px; font-size: 0.9rem; color: rgba(255,255,255,0.85);">
+              <svg width="18" height="18" fill="none" stroke="#10B981" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>
+              200+ pre-screened dealer partners
+            </li>
+            <li style="display: flex; align-items: center; gap: 10px; font-size: 0.9rem; color: rgba(255,255,255,0.85);">
+              <svg width="18" height="18" fill="none" stroke="#10B981" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>
+              Coverage in all provinces
+            </li>
+            <li style="display: flex; align-items: center; gap: 10px; font-size: 0.9rem; color: rgba(255,255,255,0.85);">
+              <svg width="18" height="18" fill="none" stroke="#10B981" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>
+              Free for consumers — always
+            </li>
+            <li style="display: flex; align-items: center; gap: 10px; font-size: 0.9rem; color: rgba(255,255,255,0.85);">
+              <svg width="18" height="18" fill="none" stroke="#10B981" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>
+              No high-pressure sales tactics
+            </li>
+          </ul>
+          <a href="#find-vehicle" class="btn btn-primary" style="margin-top: 28px; width: 100%; justify-content: center;">Find My Vehicle Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo">Drive<span>North</span></div>
+        <p class="footer-desc">Canada's consumer-first automotive lead platform.</p>
+      </div>
+      <div>
+        <div class="footer-heading">For Consumers</div>
+        <ul class="footer-links">
+          <li><a href="credit-friendly.html">Credit-Friendly Financing</a></li>
+          <li><a href="new-vehicles.html">Find a New Vehicle</a></li>
+          <li><a href="learn.html">Learning Centre</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer-heading">For Dealers</div>
+        <ul class="footer-links">
+          <li><a href="dealers.html">Partner Program</a></li>
+          <li><a href="dealers.html#apply">Apply Now</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer-heading">Company</div>
+        <ul class="footer-links">
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 DriveNorth Technologies Inc. All rights reserved.</p>
+      <p>PIPEDA Compliant &mdash; Proudly Canadian</p>
+    </div>
+  </div>
+</footer>
+
+<script src="js/app.js"></script>
+</body>
+</html>

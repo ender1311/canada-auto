@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DriveNorth — Find Your Next Vehicle. On Your Terms.</title>
+  <meta name="description" content="Canada's consumer-first automotive marketplace. Get matched with the right vehicle and financing — no pressure, no hard credit pulls." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="css/custom.css" />
+</head>
+<body>
+
+<!-- ==============================
+     NAV
+================================= -->
+<nav class="site-nav" id="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">Drive<span>North</span></a>
+    <ul class="nav-links">
+      <li><a href="credit-friendly.html">Credit-Friendly</a></li>
+      <li><a href="new-vehicles.html">New Vehicles</a></li>
+      <li><a href="learn.html">Learn</a></li>
+      <li><a href="dealers.html">For Dealers</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="credit-friendly.html" class="nav-cta">Get Started</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- Mobile Nav -->
+<div class="mobile-nav" id="mobileNav">
+  <a href="credit-friendly.html">Credit-Friendly</a>
+  <a href="new-vehicles.html">New Vehicles</a>
+  <a href="learn.html">Learn</a>
+  <a href="dealers.html">For Dealers</a>
+  <a href="contact.html">Contact</a>
+  <a href="credit-friendly.html" class="mobile-cta">Get Started Free</a>
+</div>
+
+<!-- ==============================
+     HERO
+================================= -->
+<section class="hero">
+  <div class="hero-dots"></div>
+  <div class="hero-content">
+    <div class="hero-badge">
+      <svg width="12" height="12" viewBox="0 0 12 12" fill="currentColor"><circle cx="6" cy="6" r="6"/></svg>
+      Canada's #1 Automotive Lead Platform
+    </div>
+    <h1>Find Your Next Vehicle.<br>On <span class="text-gradient">Your Terms.</span></h1>
+    <p>We connect Canadians with the right vehicle and financing — no pressure, no hard credit pulls, no dealership runaround. Just a smarter way to drive.</p>
+    <div class="hero-actions">
+      <a href="credit-friendly.html" class="btn btn-primary btn-lg">
+        <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+        Get Approved Today
+      </a>
+      <a href="new-vehicles.html" class="btn btn-outline btn-lg">Browse New Vehicles</a>
+    </div>
+    <div class="trust-badges">
+      <div class="trust-badge">
+        <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+        No Hard Credit Check
+      </div>
+      <div class="trust-badge">
+        <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+        Proudly Canadian
+      </div>
+      <div class="trust-badge">
+        <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>
+        100% Confidential
+      </div>
+      <div class="trust-badge">
+        <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"/></svg>
+        Rated 4.9/5 Stars
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==============================
+     HOW IT WORKS
+================================= -->
+<section class="section" style="background: var(--offwhite);">
+  <div class="container">
+    <div class="text-center" style="margin-bottom: 56px;">
+      <div class="section-label fade-in">
+        <svg width="14" height="14" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+        How It Works
+      </div>
+      <h2 class="section-title fade-in">Three Steps to Your Next Vehicle</h2>
+      <p class="section-subtitle fade-in">We've simplified the car buying process so you spend less time worrying and more time driving.</p>
+    </div>
+
+    <div class="card-grid card-grid-3">
+      <div class="card fade-in" style="text-align: center;">
+        <div class="card-icon" style="margin: 0 auto 20px;">
+          <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+        </div>
+        <div style="display: inline-block; background: var(--accent); color: white; width: 28px; height: 28px; border-radius: 50%; font-weight: 700; font-size: 0.85rem; line-height: 28px; text-align: center; margin-bottom: 14px;">1</div>
+        <h3 style="font-size: 1.2rem; margin-bottom: 10px;">Tell Us What You Need</h3>
+        <p style="color: var(--gray-600); font-size: 0.9rem; line-height: 1.7;">Answer a few quick questions about your budget, vehicle preference, and credit situation. Takes under 2 minutes.</p>
+      </div>
+
+      <div class="card fade-in fade-in-delay-1" style="text-align: center;">
+        <div class="card-icon" style="margin: 0 auto 20px;">
+          <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+        </div>
+        <div style="display: inline-block; background: var(--accent); color: white; width: 28px; height: 28px; border-radius: 50%; font-weight: 700; font-size: 0.85rem; line-height: 28px; text-align: center; margin-bottom: 14px;">2</div>
+        <h3 style="font-size: 1.2rem; margin-bottom: 10px;">Get Instantly Matched</h3>
+        <p style="color: var(--gray-600); font-size: 0.9rem; line-height: 1.7;">Our smart matching system connects you with pre-screened Canadian dealers and lenders that fit your exact needs.</p>
+      </div>
+
+      <div class="card fade-in fade-in-delay-2" style="text-align: center;">
+        <div class="card-icon" style="margin: 0 auto 20px;">
+          <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M15 7a2 2 0 012 2m4 0a6 6 0 01-7.743 5.743L11 17H9v2H7v2H4a1 1 0 01-1-1v-2.586a1 1 0 01.293-.707l5.964-5.964A6 6 0 1121 9z"/></svg>
+        </div>
+        <div style="display: inline-block; background: var(--accent); color: white; width: 28px; height: 28px; border-radius: 50%; font-weight: 700; font-size: 0.85rem; line-height: 28px; text-align: center; margin-bottom: 14px;">3</div>
+        <h3 style="font-size: 1.2rem; margin-bottom: 10px;">Connect &amp; Drive</h3>
+        <p style="color: var(--gray-600); font-size: 0.9rem; line-height: 1.7;">Choose the best offer, finalize the deal with your matched dealer, and drive away with confidence. It's that simple.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==============================
+     EXPLORE PATHS
+================================= -->
+<section class="section">
+  <div class="container">
+    <div style="display: flex; align-items: flex-end; justify-content: space-between; margin-bottom: 48px; flex-wrap: wrap; gap: 16px;">
+      <div>
+        <div class="section-label fade-in">Explore Your Options</div>
+        <h2 class="section-title fade-in">Every Path to a New Vehicle</h2>
+        <p class="section-subtitle fade-in">Whether you're rebuilding credit or shopping for a brand-new SUV, we have a path for you.</p>
+      </div>
+    </div>
+
+    <div class="card-grid card-grid-2">
+
+      <div class="path-card fade-in">
+        <div class="path-card-icon">💳</div>
+        <h3>Credit-Friendly Financing</h3>
+        <p>Bad credit, no credit, or bankruptcy — we work with lenders across Canada who specialize in getting you approved, regardless of your credit history.</p>
+        <a href="credit-friendly.html" class="path-card-link">
+          Get Pre-Approved
+          <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+
+      <div class="path-card fade-in fade-in-delay-1">
+        <div class="path-card-icon">🚗</div>
+        <h3>Find a New Vehicle</h3>
+        <p>Browse new vehicles from hundreds of Canadian dealers. Filter by make, model, budget, and location. Get competing offers in hours, not days.</p>
+        <a href="new-vehicles.html" class="path-card-link">
+          Browse Vehicles
+          <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+
+      <div class="path-card fade-in fade-in-delay-2" style="opacity: 0.7; cursor: default;">
+        <div style="position: absolute; top: 20px; right: 20px;">
+          <span class="coming-soon">Coming Soon</span>
+        </div>
+        <div class="path-card-icon">🛻</div>
+        <h3>Trucks &amp; Work Vehicles</h3>
+        <p>Finding the right work truck shouldn't be harder than the job itself. Dedicated matching for commercial buyers and contractors across Canada.</p>
+        <span style="color: var(--gray-400); font-size: 0.875rem; font-weight: 500;">Launching Spring 2025</span>
+      </div>
+
+      <div class="path-card fade-in fade-in-delay-3" style="opacity: 0.7; cursor: default;">
+        <div style="position: absolute; top: 20px; right: 20px;">
+          <span class="coming-soon">Coming Soon</span>
+        </div>
+        <div class="path-card-icon">⚡</div>
+        <h3>Electric Vehicles</h3>
+        <p>Ready to go electric? Our EV marketplace will connect you with the best Canadian incentives, charging infrastructure guides, and EV-ready dealers.</p>
+        <span style="color: var(--gray-400); font-size: 0.875rem; font-weight: 500;">Launching Summer 2025</span>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ==============================
+     STATS / WHY DRIVENORTH
+================================= -->
+<section class="section" style="background: var(--navy); position: relative; overflow: hidden;">
+  <div style="position: absolute; inset: 0; background: radial-gradient(ellipse 70% 60% at 50% 50%, rgba(46,134,222,0.12) 0%, transparent 70%); pointer-events: none;"></div>
+  <div class="container" style="position: relative; z-index: 1;">
+
+    <div class="text-center" style="margin-bottom: 56px;">
+      <div class="section-label fade-in" style="color: #60B4FF; justify-content: center;">
+        <svg width="14" height="14" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"/></svg>
+        Why DriveNorth
+      </div>
+      <h2 class="section-title fade-in" style="color: var(--white);">Built for Canadians,<br>By Canadians</h2>
+    </div>
+
+    <div class="card-grid card-grid-3" style="margin-bottom: 64px;">
+
+      <div class="stat-card fade-in" style="background: rgba(255,255,255,0.06); border-radius: 16px; border: 1px solid rgba(255,255,255,0.1);">
+        <div class="stat-number" style="color: var(--white);">10,000<span>+</span></div>
+        <div class="stat-label" style="color: rgba(255,255,255,0.6);">Canadians Helped</div>
+      </div>
+
+      <div class="stat-card fade-in fade-in-delay-1" style="background: rgba(255,255,255,0.06); border-radius: 16px; border: 1px solid rgba(255,255,255,0.1);">
+        <div class="stat-number" style="color: var(--white);">200<span>+</span></div>
+        <div class="stat-label" style="color: rgba(255,255,255,0.6);">Partner Dealers</div>
+      </div>
+
+      <div class="stat-card fade-in fade-in-delay-2" style="background: rgba(255,255,255,0.06); border-radius: 16px; border: 1px solid rgba(255,255,255,0.1);">
+        <div class="stat-number" style="color: var(--white);">98<span>%</span></div>
+        <div class="stat-label" style="color: rgba(255,255,255,0.6);">Satisfaction Rate</div>
+      </div>
+
+    </div>
+
+    <div class="card-grid card-grid-3">
+      <div class="fade-in" style="display: flex; gap: 16px; align-items: flex-start;">
+        <div style="width: 44px; height: 44px; min-width: 44px; background: rgba(46,134,222,0.2); border-radius: 12px; display: flex; align-items: center; justify-content: center; color: #60B4FF;">
+          <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+        </div>
+        <div>
+          <h4 style="color: var(--white); font-size: 1rem; margin-bottom: 6px;">No Hard Credit Pulls</h4>
+          <p style="color: rgba(255,255,255,0.6); font-size: 0.875rem; line-height: 1.6;">We pre-screen with soft checks only. Your credit score is never affected by browsing your options with us.</p>
+        </div>
+      </div>
+
+      <div class="fade-in fade-in-delay-1" style="display: flex; gap: 16px; align-items: flex-start;">
+        <div style="width: 44px; height: 44px; min-width: 44px; background: rgba(46,134,222,0.2); border-radius: 12px; display: flex; align-items: center; justify-content: center; color: #60B4FF;">
+          <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/></svg>
+        </div>
+        <div>
+          <h4 style="color: var(--white); font-size: 1rem; margin-bottom: 6px;">All Credit Situations Welcome</h4>
+          <p style="color: rgba(255,255,255,0.6); font-size: 0.875rem; line-height: 1.6;">From excellent credit to bankruptcy discharge — we work with lenders specializing in every credit situation.</p>
+        </div>
+      </div>
+
+      <div class="fade-in fade-in-delay-2" style="display: flex; gap: 16px; align-items: flex-start;">
+        <div style="width: 44px; height: 44px; min-width: 44px; background: rgba(46,134,222,0.2); border-radius: 12px; display: flex; align-items: center; justify-content: center; color: #60B4FF;">
+          <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+        </div>
+        <div>
+          <h4 style="color: var(--white); font-size: 1rem; margin-bottom: 6px;">Free to Use — Always</h4>
+          <p style="color: rgba(255,255,255,0.6); font-size: 0.875rem; line-height: 1.6;">There's never a fee to use DriveNorth. We earn a small referral fee from dealers only when you find your match.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ==============================
+     TESTIMONIALS
+================================= -->
+<section class="section" style="background: var(--offwhite);">
+  <div class="container">
+    <div class="text-center" style="margin-bottom: 48px;">
+      <div class="section-label fade-in" style="justify-content: center;">What Canadians Are Saying</div>
+      <h2 class="section-title fade-in">Real Stories, Real Drivers</h2>
+    </div>
+
+    <div class="card-grid card-grid-3">
+
+      <div class="testimonial-card fade-in">
+        <div class="stars">
+          ★★★★★
+        </div>
+        <p class="testimonial-quote">"After two years of bad credit following a medical crisis, I thought I'd never get financing again. DriveNorth matched me with a lender in 48 hours. Now I'm driving a 2023 Civic."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">MR</div>
+          <div>
+            <div class="author-name">Michelle R.</div>
+            <div class="author-location">Hamilton, ON</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card fade-in fade-in-delay-1">
+        <div class="stars">★★★★★</div>
+        <p class="testimonial-quote">"The process was so smooth. I filled out the form on Sunday night and by Tuesday I was test-driving my new F-150 at a dealer 20 minutes from my house. No games, no pressure."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">JT</div>
+          <div>
+            <div class="author-name">James T.</div>
+            <div class="author-location">Calgary, AB</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card fade-in fade-in-delay-2">
+        <div class="stars">★★★★★</div>
+        <p class="testimonial-quote">"As a newcomer to Canada, getting car financing felt impossible. DriveNorth connected me with a dealer who understood my situation. Five stars doesn't do it justice."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">AP</div>
+          <div>
+            <div class="author-name">Ananya P.</div>
+            <div class="author-location">Brampton, ON</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ==============================
+     FOR DEALERS CTA
+================================= -->
+<section class="cta-navy">
+  <div class="container" style="position: relative; z-index: 1;">
+    <div class="section-label fade-in" style="color: #60B4FF; justify-content: center; margin-bottom: 16px;">
+      <svg width="14" height="14" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M4 4a2 2 0 012-2h8a2 2 0 012 2v12a1 1 0 110 2h-3a1 1 0 01-1-1v-2a1 1 0 00-1-1H9a1 1 0 00-1 1v2a1 1 0 01-1 1H4a1 1 0 110-2V4zm3 1h2v2H7V5zm2 4H7v2h2V9zm2-4h2v2h-2V5zm2 4h-2v2h2V9z" clip-rule="evenodd"/></svg>
+      For Dealerships
+    </div>
+    <h2 class="section-title fade-in" style="color: var(--white); font-size: clamp(1.8rem, 3vw, 2.6rem);">Grow Your Dealership<br>with Qualified Leads</h2>
+    <p class="fade-in" style="color: rgba(255,255,255,0.75); font-size: 1.05rem; max-width: 520px; margin: 0 auto 36px; line-height: 1.7;">Join 200+ Canadian dealerships receiving pre-screened, in-market leads — no upfront costs, pay only for performance.</p>
+    <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
+      <a href="dealers.html" class="btn btn-primary btn-lg fade-in">Become a Partner Dealer</a>
+      <a href="dealers.html#how-it-works" class="btn btn-outline btn-lg fade-in fade-in-delay-1">Learn How It Works</a>
+    </div>
+  </div>
+</section>
+
+<!-- ==============================
+     NEWSLETTER
+================================= -->
+<section class="section-sm" style="background: var(--sky); border-top: 1px solid rgba(46,134,222,0.15); border-bottom: 1px solid rgba(46,134,222,0.15);">
+  <div class="container" style="text-align: center;">
+    <h3 style="font-size: 1.4rem; color: var(--navy); margin-bottom: 8px;">Stay in the Know</h3>
+    <p style="color: var(--gray-600); font-size: 0.95rem; margin-bottom: 24px;">Canadian auto tips, financing guides, and exclusive offers — delivered monthly.</p>
+    <form class="newsletter-form" style="justify-content: center;">
+      <input type="email" class="form-control" placeholder="Enter your email address" required />
+      <button type="submit" class="btn btn-primary">Subscribe</button>
+    </form>
+    <p style="font-size: 0.78rem; color: var(--gray-400); margin-top: 12px;">No spam. Unsubscribe anytime. We respect your privacy.</p>
+  </div>
+</section>
+
+<!-- ==============================
+     FOOTER
+================================= -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo">Drive<span>North</span></div>
+        <p class="footer-desc">Canada's consumer-first automotive lead platform. We connect Canadians with the right vehicles and financing — on their terms.</p>
+        <p style="font-size: 0.8rem; color: rgba(255,255,255,0.4);">Serving all provinces &amp; territories across Canada.</p>
+      </div>
+
+      <div>
+        <div class="footer-heading">For Consumers</div>
+        <ul class="footer-links">
+          <li><a href="credit-friendly.html">Credit-Friendly Financing</a></li>
+          <li><a href="new-vehicles.html">Find a New Vehicle</a></li>
+          <li><a href="learn.html">Learning Centre</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <div class="footer-heading">For Dealers</div>
+        <ul class="footer-links">
+          <li><a href="dealers.html">Partner Program</a></li>
+          <li><a href="dealers.html#how-it-works">How It Works</a></li>
+          <li><a href="dealers.html#apply">Apply Now</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <div class="footer-heading">Company</div>
+        <ul class="footer-links">
+          <li><a href="contact.html">About Us</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="contact.html">Terms of Service</a></li>
+          <li><a href="contact.html">Press</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 DriveNorth Technologies Inc. All rights reserved.</p>
+      <p>Built for Canadians &mdash; PIPEDA Compliant</p>
+    </div>
+  </div>
+</footer>
+
+<script src="js/app.js"></script>
+</body>
+</html>
